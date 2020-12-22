@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            color:#666666;
+            background-color: #f9f8f6;
+            background-image: url("dark-wood.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.4em;
+            margin:0px;
+        }
+        div.wrapper {
+            width: 940px;
+            margin:20px auto;
+            border:2px solid black;
+            background-color: #ffffff;
+        }
+        header {
+            height: 160px;
+            background-image: url("header.jpg");
+        }
+        nav {
+            position: relative;
+            top: 130px;
+        }
+        nav,footer {
+            clear:both;
+            color:white;
+            background-color: gray;
+            height: 30px;
+        }
+        nav ul {
+            margin:0px;
+            padding: 5px 0px 5px 30px;
+        }
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+        nav li a:hover,nav li a.current {
+            color:black
+        }
+        a {
+            text-decoration: none;
+        }
+        nav li a {
+            color: white;
+        }
+        section.courses {
+            float:left;
+            width:659px;
+            border-right: 1px solid #c5c5c3;
+        }
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;
+        }
+        hgroup {
+            margin-top: 40px;
+        }
+        figure {
+            float: left;
+            width:290px;
+            height: 220px;
+            padding: 5px;
+            margin:20px;
+            border-right:  1px solid #c5c5c3;
+        }
+        figcaption {
+            font-size: 90%;
+            text-align: left;
+        }
+        aside {
+            width: 230px;
+            float: left;
+            padding-left: 20px;
+        }
+        aside section a{
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #c5c5c3;
+            color: pink;
+        }
+        aside section a.hover {
+            color:#985d6a;
+        }
+        h2.h3 {
+            font-weight: normal;
+        }
+        h2 {
+            margin:10px 0px 5px opx
+        }
+        h3 {
+            margin: 0px 0px 10px 0px;
+            color:#ff9999;
+        }
+        aside h2 {
+            padding: 30px 0px 10px 0px
+        }
+        footer {
+            font-size:80%;
+            padding:7px 0px opx 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="" class ="current">Home</a></li>
+                    <li><a href="">Classes</a></li>
+                    <li><a href="">Catering</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contakt</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <section class="courses">
+            <article>
+                <img src="bok-choi.jpg" alt="Bok Choi"/>
+                <figure>
+                <figcaption>Boc Choi</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Japanese Vegetarian</h2>
+                    <h3>Five week course in London</h3>
+                </hgroup>
+                <p>A five week introduction to traditional 
+                   Japanese vegetarian meals,teaching you a 
+                   selection of rice and modle dishes.
+                </p>
+            </article>
+            <article>
+                <img src="kafe.jpg" alt="Tahiti sos"/>
+                <figure>
+                    <figcaption>Teriaki sous</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Soses almastes class</h2>
+                    <h3>One day workshop</h3>
+                </hgroup>
+                <p>
+                    An intensiv one-day course looking at 
+                    haw to create the most delicios souses 
+                    for use in a range Japan food.
+                </p>
+
+            </article>
+        </section>
+        <aside>
+            <section class="popularRecipient">
+                <h2>Popular Recipies</h2>
+                <a href="">Yakitory(grilled chiken)</a>
+                <a href="">Tsukune(nincend grilled chiken)</a>
+                <a href="">Okonomiaki( savory grilled chiken)</a>
+                <a href="">Muzitaki(chiken)</a>
+            </section>
+            <section class="contaktDetails">
+                <h2>Contact</h2>
+                <p>Yoko,s kitchen</br>
+                    27 Reduch street</br>
+                    Shoridetch</br>
+                    London e2 7DP
+                </p>
+
+            </section>
+        </aside>
+        <footer>Rcopy;2011 Yoko,s Kitchen</footer>
+    </div>
+</body>
+</html>
